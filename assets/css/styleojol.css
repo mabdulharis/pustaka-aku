@@ -1,0 +1,100 @@
+body{
+    background: rgb(15, 14, 14);
+    color: rgb(240, 13, 13);
+    font-family: sans-serif;
+    font-size:15px;
+   }
+   #wrapper{
+    background: rgb(28, 26, 26);
+    width: 1100px;
+    margin: 20px auto;
+   }
+   #wrapper header{
+    background: #f70b0b;
+    padding: 20px;
+   }
+   #wrapper header hgroup{
+    float: left;
+    color: #fff;
+   }
+   #wrapper header nav{
+
+    float: right;
+    margin-top: 50px;
+   }
+   #wrapper header nav ul{
+    padding: 0;
+    margin: 0;
+   }
+   #wrapper header nav ul li{
+    float: left;
+    list-style: none;
+   }
+   #wrapper header nav ul li a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+   }
+   .clear{
+    clear: both;
+   }
+   footer{
+    background: #f60606;
+    padding: 20px;
+   }
+   footer a{
+    color: #fff;
+    text-decoration: none;
+   }
+   section{
+    padding: 20px;
+   }
+   
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pesan {
+    float: left;
+    width: 400px;
+    height: 100vh;
+    background: #76d275;
+    overflow-y: auto;
+}
+
+#map {
+    float: left;
+    width: calc(100% - 400px);
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.inner {
+    padding: 10px;
+}
+
+#detail {
+    display: none;
+    margin-top: 50px;
+}
+
+#detail th, #detail td {
+    padding: 10px;
+}
+
+.card-custom {
+	background-color: #fff;
+	padding: 10px 15px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+#pesan-btn {
+    display: block;
+    margin: auto;
+}
